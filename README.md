@@ -40,9 +40,9 @@ _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
 
 1. Delete all code you see
 2. Copy and paste [this HTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/theme.html)
-3. Custom your own Blogger theme through this README.md
+3. Custom your own Blogger theme through [this README.md](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/README.md)
 
-_Don't just copy and paste the HTML file_
+_Don't just copy and paste the HTML file！！！_
 
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/photo/Blogger：Edit%20HTML.png" width='100%' height='100%'/>
 
