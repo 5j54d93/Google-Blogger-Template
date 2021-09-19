@@ -1,8 +1,14 @@
 # Custom your own Blogger theme（template）
 
+There are many html code you need to change to fit your blog！（and also Google AdSense code！）
+
 ## Blogger Template｜Overview
 
 ## Blogger Template｜Navigation Bar
+
+> ### Pages
+
+> ### Social Media Links
 
 ## Blogger Template｜Body
 
