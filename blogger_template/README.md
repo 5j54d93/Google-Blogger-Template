@@ -201,6 +201,8 @@ _You could put a Google Ad after this 10 most popular articles！_
 <b:widget id='Text1' locked='false' title='歡迎追蹤！' type='Text' version='1'>
 ```
 
+_You could put a Google Ad after this Side Bar！_
+
 ## Blogger Template｜Footer
 
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Footer.png" width='100%' height='100%'/>
