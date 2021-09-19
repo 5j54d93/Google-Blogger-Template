@@ -35,3 +35,9 @@ _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
 
 1. Delete all code you see
 2. Paste this HTML code
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/photo/Blogger：Edit%20HTML.png" width='100%' height='100%'/>
+
+## Blogger Template｜License：© 2021 看我所見. All rights reserved.
+
+This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/Google-Blogger-Template/blob/main/LICENSE) for details.
