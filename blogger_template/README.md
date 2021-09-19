@@ -83,6 +83,37 @@ There are many html code（include Google AdSense code）you need to change to f
 
 ### Selected feature article
 
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：Selected%20feature%20article.png" width='100%' height='100%'/>
+
+- [Line 113](https://github.com/5j54d93/Google-Blogger-Template/blob/951e2ff55caf4b06ba18ca5160f86bceb8eaa419/blogger_template/theme.html#L113)：this selected feature article will only show on Home page
+
+```html
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+```
+
+- [Line 117](https://github.com/5j54d93/Google-Blogger-Template/blob/951e2ff55caf4b06ba18ca5160f86bceb8eaa419/blogger_template/theme.html#L117)：
+  - `發燒文章` means Trending article, you could translate to your language.
+  - `瀏覽次數` means Views, you could translate to your language and edit the view number correctly afterward.
+  - `發布日期` means Post day, you could translate to your language and edit the date correctly afterward.
+
+```html
+<strong class='d-inline-block mb-4' style='border-color: #03C755; color: #03C755;'>發燒文章 #1<span class='day-text night'>&#12539;瀏覽次數&#65306;7.46 萬次&#12539;發布日期&#65306;2019 年 8 月 12 日</span></strong>
+```
+
+- [Line 118](https://github.com/5j54d93/Google-Blogger-Template/blob/951e2ff55caf4b06ba18ca5160f86bceb8eaa419/blogger_template/theme.html#L118)：All you need to do is change `高中&#65306;一&#12289;二&#12289;三類組怎麼選&#65311;三類經驗分享&#65281;` to your selected article's title.
+
+```html
+<h1 class='card-title mb-4 fw-bold fst-italic'>高中&#65306;一&#12289;二&#12289;三類組怎麼選&#65311;三類經驗分享&#65281;</h1>
+```
+
+- [Line 119](https://github.com/5j54d93/Google-Blogger-Template/blob/951e2ff55caf4b06ba18ca5160f86bceb8eaa419/blogger_template/theme.html#L119)：All you need to do is change `文章重點預覽&#65306;高中類組&#65306;文章前言 一&#12289;二&#12289;三類組各別適合的學群 高中面臨選擇&#65306;&#12300;理組&#12301;還是&#12300;文組&#12301;&#65311; 高中二類&#12289;三類的差別&#65311;&#65281; 高中不確定想走&#12300;理工&#12301;還是&#12300;生物醫學&#12301;&#65311; 未來想走理工&#65292;但覺得三類能多學&#12300;生物&#12301;一科對自己也有幫助&#65281;` to your selected article's preview.
+
+```html
+<p class='card-text'>文章重點預覽&#65306;高中類組&#65306;文章前言 一&#12289;二&#12289;三類組各別適合的學群 高中面臨選擇&#65306;&#12300;理組&#12301;還是&#12300;文組&#12301;&#65311; 高中二類&#12289;三類的差別&#65311;&#65281; 高中不確定想走&#12300;理工&#12301;還是&#12300;生物醫學&#12301;&#65311; 未來想走理工&#65292;但覺得三類能多學&#12300;生物&#12301;一科對自己也有幫助&#65281;</p>
+```
+
+_You could put a Google Ad after this selected feature article！_
+
 ## Blogger Template｜Side Bar
 
 ## Blogger Template｜Footer
