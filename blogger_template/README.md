@@ -114,6 +114,10 @@ There are many html code（include Google AdSense code）you need to change to f
 
 _You could put a Google Ad after this selected feature article！_
 
+### 5 latest articles
+
+
+
 ## Blogger Template｜Side Bar
 
 ## Blogger Template｜Footer
