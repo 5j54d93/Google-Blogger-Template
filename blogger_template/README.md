@@ -140,7 +140,39 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ## Blogger Template｜Side Bar
 
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar.png" width='100%' height='100%'/>
+
 ### About & Share Buttons
+
+- [Line 1034](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1034)：`關於` means About, you could translate into your language.
+
+```html
+<h4 class='fw-bold' id='about'>關於</h4>
+```
+
+- [Line 1035](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1035)：All you need to do is change `本網站成立於 2019 年 7 月 17 日&#65292;分享筆者的生活經歷與特殊經驗&#65281;科技&#12289;旅遊&#12289;學習&#12289;娛樂&#8943;&#8943;` to your blog's short description.
+
+```html
+<p class='mb-2'>本網站成立於 2019 年 7 月 17 日&#65292;分享筆者的生活經歷與特殊經驗&#65281;科技&#12289;旅遊&#12289;學習&#12289;娛樂&#8943;&#8943;</p>
+```
+
+- [Line 1036](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1036)：Go to [LINE Social Plugins](https://social-plugins.line.me/zh_TW/how_to_install#lineitbutton) to customize your LINE Share Button and replace Line 1036.
+
+```html
+<div class='line-it-button' data-color='default' data-count='false' data-lang='zh_Hant' data-size='small' data-type='share-a' data-url='https://sharing-life-in-tw.blogspot.com' data-ver='3' style='display: none;'/><script async='async' defer='defer' src='https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js'/>
+```
+
+- [Line 1037](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1037)：Go to [Twitter Publish](https://publish.twitter.com/#) to customize your Twitter Share Button and replace Line 1037.
+
+```html
+<a class='twitter-share-button' data-show-count='false' href='https://twitter.com/share?ref_src=twsrc%5Etfw'>Tweet</a><script async='async' charset='utf-8' src='https://platform.twitter.com/widgets.js'/>
+```
+
+- [Line 1038](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1038)：Go to [FACEBOOK for Developers](https://developers.facebook.com/docs/plugins/share-button) to customize your Facebook Share Button and replace Line 1038.
+
+```html
+<div class='fb-share-button' data-href='https://sharing-life-in-tw.blogspot.com' data-layout='button_count' data-size='small' style='vertical-align: super; margin-left: 0.1rem !important;'><a class='fb-xfbml-parse-ignore' href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsharing-life-in-tw.blogspot.com%2F&amp;src=sdkpreparse' target='_blank'>分享</a></div>
+```
 
 ### Views
 
