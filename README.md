@@ -46,7 +46,7 @@ _！！！Don't just copy and paste the HTML file！！！_
 
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/photo/Blogger：Edit%20HTML.png" width='100%' height='100%'/>
 
-_After customize your blogger template, don't forget to click top-right icon to save！_
+_After customize your blogger template, don't forget to click on top-right icon to save！_
 
 ## Blogger Template｜License：© 2021 看我所見. All rights reserved.
 
