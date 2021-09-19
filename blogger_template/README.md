@@ -140,9 +140,9 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ## Blogger Template｜Side Bar
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar.png" width='100%' height='100%'/>
-
 ### About & Share Buttons
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar：About%20%26%20Share%20Buttons.png" width='100%' height='100%'/>
 
 - [Line 1034](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1034)：`關於` means About, you could translate into your language.
 
@@ -176,7 +176,23 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ### Views
 
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar：Views.png" width='100%' height='100%'/>
+
+- [Line 1042](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1042)：`總瀏覽次數` means Total Views, you could translate into your language.
+
+```html
+<b:widget id='Stats1' locked='false' title='總瀏覽次數' type='Stats' version='1'>
+```
+
 ### Followers
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar：Followers.png" width='100%' height='100%'/>
+
+- [Line 1065](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1065)：`歡迎追蹤` means Welcome to Follow, you could translate into your language.
+
+```html
+<b:widget id='Text1' locked='false' title='歡迎追蹤！' type='Text' version='1'>
+```
 
 ## Blogger Template｜Footer
 
