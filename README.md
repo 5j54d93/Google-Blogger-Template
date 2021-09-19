@@ -1,5 +1,6 @@
 # Blogger Template（Theme）designed with Bootstrap
 
+[![CI](https://github.com/5j54d93/Google-Blogger-Template/actions/workflows/blank.yml/badge.svg)](https://github.com/5j54d93/Google-Blogger-Template/actions/workflows/blank.yml)
 ![GitHub](https://img.shields.io/github/license/5j54d93/Blogger-Template)
 [![GitHub stars](https://img.shields.io/github/stars/5j54d93/Blogger-Template)](https://github.com/5j54d93/Blogger-Template/stargazers)
 ![GitHub watchers](https://img.shields.io/github/watchers/5j54d93/Blogger-Template)
@@ -21,6 +22,10 @@ And this Blogger template could automatic switch between Day theme and Nithgt th
 
 ## Blogger Template｜Overview
 
+1. [Code Blogger's Theme](https://github.com/5j54d93/Google-Blogger-Template#blogger-templatecode-bloggers-theme)
+2. [Edit HTML](https://github.com/5j54d93/Google-Blogger-Template#blogger-templateedit-html)
+- [License](https://github.com/5j54d93/Google-Blogger-Template#blogger-templatelicense-2021-看我所見-all-rights-reserved)
+
 ## Blogger Template｜Code Blogger's Theme
 
 _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
@@ -34,7 +39,10 @@ _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
 ## Blogger Template｜Edit HTML
 
 1. Delete all code you see
-2. Paste this HTML code
+2. Copy and paste this HTML code
+3. Custom your own Blogger theme through this README.md
+
+_Don't just copy and paste the HTML file_
 
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/photo/Blogger：Edit%20HTML.png" width='100%' height='100%'/>
 
