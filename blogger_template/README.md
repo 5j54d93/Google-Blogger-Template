@@ -26,31 +26,31 @@ There are many html code（include Google AdSense code）you need to change to f
 
 ### Pages
 
-- [Line 84](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L84)：`首頁` means HOME, you could translate to your language.
+- [Line 84](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L84)：`首頁` means HOME, you could translate into your language.
 
 ```html
 <li><a class='nav-link me-3' href='/'>首頁</a></li>
 ```
 
-- [Line 85](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L85)：`發燒文章` means Popular Article, you could translate to your language.  
+- [Line 85](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L85)：`發燒文章` means Popular Article, you could translate into your language.  
 
 ```html
 <li><a class='nav-link text-white me-3' href='#PopularPosts1'>發燒文章</a></li>
 ```
 
-- [Line 86](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L86)：`搜尋` means Search, you could translate to your language and you need to change the link in `href=''` to your search page's link.  
+- [Line 86](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L86)：`搜尋` means Search, you could translate into your language and you need to change the link in `href=''` to your search page's link.  
 
 ```html
 <li><a class='nav-link text-white me-3' href='https://sharing-life-in-tw.blogspot.com/p/search.html' target='_blank'>搜尋</a></li>
 ```
 
-- [Line 87](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L87)：`社群` means Social Media, you could translate to your language and you need to change the link in `href=''` to your link like [linktree](https://linktr.ee).  
+- [Line 87](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L87)：`社群` means Social Media, you could translate into your language and you need to change the link in `href=''` to your link like [linktree](https://linktr.ee).  
 
 ```html
 <li><a class='nav-link text-danger me-3' href='https://linktr.ee/5j_54d93' target='_blank'>社群</a></li>
 ```
 
-- [Line 88](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L88)：`贊助` means Donate, you could translate to your language and you need to change the link in `href=''` to your donate page's link.
+- [Line 88](https://github.com/5j54d93/Google-Blogger-Template/blob/4db6ef7e27f00875297414f256b635e39fd3db29/blogger_template/theme.html#L88)：`贊助` means Donate, you could translate into your language and you need to change the link in `href=''` to your donate page's link.
 
 ```html
 <li><a class='nav-link text-info me-3' href='https://sharing-life-in-tw.blogspot.com/p/donate.html' target='_blank'>贊助</a></li>
@@ -92,9 +92,9 @@ There are many html code（include Google AdSense code）you need to change to f
 ```
 
 - [Line 117](https://github.com/5j54d93/Google-Blogger-Template/blob/951e2ff55caf4b06ba18ca5160f86bceb8eaa419/blogger_template/theme.html#L117)：
-  - `發燒文章` means Trending article, you could translate to your language.
-  - `瀏覽次數` means Views, you could translate to your language and edit the view number correctly afterward.
-  - `發布日期` means Post day, you could translate to your language and edit the date correctly afterward.
+  - `發燒文章` means Trending article, you could translate into your language.
+  - `瀏覽次數` means Views, you could translate into your language and edit the view number correctly afterward.
+  - `發布日期` means Post day, you could translate into your language and edit the date correctly afterward.
 
 ```html
 <strong class='d-inline-block mb-4' style='border-color: #03C755; color: #03C755;'>發燒文章 #1<span class='day-text night'>&#12539;瀏覽次數&#65306;7.46 萬次&#12539;發布日期&#65306;2019 年 8 月 12 日</span></strong>
@@ -115,6 +115,16 @@ There are many html code（include Google AdSense code）you need to change to f
 _You could put a Google Ad after this selected feature article！_
 
 ### 5 latest articles
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：5%20latest%20articles.png" width='100%' height='100%'/>
+
+- [Line 176](https://github.com/5j54d93/Google-Blogger-Template/blob/ecd7b7d6c533fd91d72f15d9e78a942c3ff0d3a9/blogger_template/theme.html#L176)：`閱讀最新文章` means Read Newest Article, you could translate into your language.
+
+```html
+<a class='stretched-link btn btn-outline-primary day-blue night mt-3' expr:href='data:post.url'>閱讀最新文章</a>
+```
+
+### 10 most popular articles
 
 
 
