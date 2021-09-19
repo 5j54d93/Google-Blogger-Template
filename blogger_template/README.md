@@ -124,6 +124,8 @@ _You could put a Google Ad after this selected feature article！_
 <a class='stretched-link btn btn-outline-primary day-blue night mt-3' expr:href='data:post.url'>閱讀最新文章</a>
 ```
 
+_You could put a Google Ad after this selected feature article！_
+
 ### 10 most popular articles
 
 
