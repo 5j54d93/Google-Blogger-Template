@@ -196,6 +196,20 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ## Blogger Template｜Footer
 
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Footer.png" width='100%' height='100%'/>
+
+- [Line 1118](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1118)：All you need to do is change `看我所見` to your blog's name.
+
+```html
+<p class='mb-1'>&#169; 2021 看我所見. All rights reserved.</p>
+```
+
+- [Line 1119](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1119)：You could replace `本網站內容為作者&#12300;Ricky Chuang&#12301;所有&#65292;未經許可請勿轉載&#65281;` with author and copyright strike.
+
+```html
+<p class='mb-0'>本網站內容為作者&#12300;Ricky Chuang&#12301;所有&#65292;未經許可請勿轉載&#65281;</p>
+```
+
 ## Blogger Template｜License：© 2021 看我所見. All rights reserved.
 
 This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/Google-Blogger-Template/blob/main/LICENSE) for details.
