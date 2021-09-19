@@ -128,7 +128,7 @@ _You could put a Google Ad after this selected feature article！_
 
 ### 10 most popular articles
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：10%20most%20popular%20articles.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：10%20trending%20articles.png" width='100%' height='100%'/>
 
 - [Line 1018](https://github.com/5j54d93/Google-Blogger-Template/blob/ec2cdc9f9fc2fcd2e30220d0c3b0fc3a9890b444/blogger_template/theme.html#L1018)：`閱讀本月熱門文章` means Read trending articles this month, you could translate into your language.
 
