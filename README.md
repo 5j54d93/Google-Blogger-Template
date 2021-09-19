@@ -6,7 +6,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/5j54d93/Blogger-Template)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Blogger-Template)
 
-Design [Google Blogger](https://www.blogger.com)'s theme（template）using [Bootstrap](https://bootstrap5.hexschool.com) with Blogger's special syntax！This Blogger template will always show 5 latest and 10 most popular articles！This template could also show a selected feature article on top of home.  
+Design [Google Blogger](https://www.blogger.com)'s theme（template）using [Bootstrap](https://bootstrap5.hexschool.com) and [Material Design's icon](https://fonts.google.com/icons) with Blogger's special syntax！This Blogger template will always show 5 latest and 10 most popular articles！This template could also show a selected feature article on top of home.  
 There are social media links on top-right of navigation bar which could collapse into navbar-toggler-icon（hamburger）on small screen devices like mobile phone.  
 On the sidebar, there are About、Views and Followers！You could also show license at the bottom of all pages.  
 And this Blogger template could automatic switch between Day theme and Nithgt theme！
