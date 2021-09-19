@@ -124,7 +124,7 @@ _You could put a Google Ad after this selected feature article！_
 <a class='stretched-link btn btn-outline-primary day-blue night mt-3' expr:href='data:post.url'>閱讀最新文章</a>
 ```
 
-_You could put a Google Ad after this selected feature article！_
+_You could put a Google Ad after this 5 latest articles！_
 
 ### 10 most popular articles
 
@@ -136,9 +136,15 @@ _You could put a Google Ad after this selected feature article！_
 <a class='stretched-link btn btn-outline-primary day-blue night mt-3' expr:href='data:post.href'>閱讀本月熱門文章</a>
 ```
 
-_You could put a Google Ad after this selected feature article！_
+_You could put a Google Ad after this 10 most popular articles！_
 
 ## Blogger Template｜Side Bar
+
+### About & Share Buttons
+
+### Views
+
+### Followers
 
 ## Blogger Template｜Footer
 
