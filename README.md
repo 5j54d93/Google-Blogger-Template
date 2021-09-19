@@ -17,7 +17,7 @@ And this Blogger template could automatic switch between Day theme and Nithgt th
 
 1. **Navigation Bar**：Home、Pages、Social Media Links
 2. **Body**：selected feature article、5 latest articles、10 most popular articles
-3. **Side Bar**：About、Views、Followers
+3. **Side Bar**：About、Share buttons、Views、Followers
 4. **Footer**：License
 
 ## Blogger Template｜Overview
