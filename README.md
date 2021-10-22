@@ -1,7 +1,6 @@
 # Blogger Template（Theme）designed with Bootstrap
 
 [![Jekyll site CI](https://github.com/5j54d93/Google-Blogger-Template/actions/workflows/jekyll.yml/badge.svg)](https://github.com/5j54d93/Google-Blogger-Template/actions/workflows/jekyll.yml)
-[![CI](https://github.com/5j54d93/Google-Blogger-Template/actions/workflows/blank.yml/badge.svg)](https://github.com/5j54d93/Google-Blogger-Template/actions/workflows/blank.yml)
 ![GitHub](https://img.shields.io/github/license/5j54d93/Blogger-Template)
 [![GitHub stars](https://img.shields.io/github/stars/5j54d93/Blogger-Template)](https://github.com/5j54d93/Blogger-Template/stargazers)
 ![GitHub watchers](https://img.shields.io/github/watchers/5j54d93/Blogger-Template)
