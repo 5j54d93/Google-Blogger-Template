@@ -39,7 +39,7 @@ _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
 ## Blogger Template｜Edit HTML
 
 1. Delete all code you see
-2. Copy and paste [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/theme.xml)
+2. Copy and paste [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/theme.xhtml)
 3. Custom your own Blogger theme through [this README.md](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/README.md)
 
 _！！！Don't just copy and paste the HTML file！！！_
