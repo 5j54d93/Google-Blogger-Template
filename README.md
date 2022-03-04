@@ -4,6 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/5j54d93/Blogger-Template)
 [![GitHub stars](https://img.shields.io/github/stars/5j54d93/Blogger-Template)](https://github.com/5j54d93/Blogger-Template/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/5j54d93/Google-Blogger-Template)](https://github.com/5j54d93/Google-Blogger-Template/network)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/5j54d93/Google-Blogger-Template)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Blogger-Template)
 
 [**Google Blogger**](https://www.blogger.com) theme（template）designed with [**Bootstrap**](https://bootstrap5.hexschool.com) and Blogger's special XML syntax.
