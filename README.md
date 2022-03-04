@@ -16,7 +16,7 @@
 - automatic switch between `light theme` & `dark theme`
 - custom search bar、custom search page、custom archive page、custom topic page
 
-<img src="https://github.com/5j54d93/Blogger-Template/blob/main/photo/Screenshot.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Demo.png" width='100%' height='100%'/>
 
 > Demo website：[**sharing-life-in-tw.blogspot.com**](https://sharing-life-in-tw.blogspot.com)
 
