@@ -22,6 +22,10 @@
 
 ## Overview
 
+1. [How To Use]()
+2. [Design on Your Own]()
+3. [License：MIT]()
+
 ## How To Use
 
 0. You shoul have a [Google Blogger](https://www.blogger.com) account first！
@@ -34,7 +38,9 @@
 4. Delete all code you see
 5. Fork this repository and custom [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) through [this README.md file](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate) to fit your blog
 
-6. or you could start design your own blogger website by using the simplest code below
+## Design on Your Own
+
+You could start design your own blogger website by using the simplest code below
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
