@@ -32,7 +32,7 @@
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Blogger：Theme%20Page.png" width='100%' height='100%'/>
 
 4. Delete all code you see
-5. Fork this repository and custom [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/theme.xhtml) through [this README.md file](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/README.md) to fit your blog
+5. Fork this repository and custom [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) through [this README.md file](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate) to fit your blog
 
 6. or you could start design your own blogger website by using the simplest code below
 
