@@ -40,7 +40,7 @@
 
 ## Design on Your Own
 
-You could start design your own blogger website by using the simplest code below
+You could design your own blogger website start by using the simplest code below
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
