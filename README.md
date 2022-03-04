@@ -24,7 +24,8 @@
 
 1. [**How To Use**](https://github.com/5j54d93/Google-Blogger-Template#how-to-use)
 2. [**Design on Your Own**](https://github.com/5j54d93/Google-Blogger-Template#design-on-your-own)
-3. [**License：MIT**](https://github.com/5j54d93/Google-Blogger-Template#licensemit)
+3. [**Learn More**](https://github.com/5j54d93/Google-Blogger-Template#learn-more)
+4. [**License：MIT**](https://github.com/5j54d93/Google-Blogger-Template#licensemit)
 
 ## How To Use
 
