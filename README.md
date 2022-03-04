@@ -58,6 +58,12 @@ You could design your own blogger website start by using the simplest code below
 </html>
 ```
 
+## Learn More
+
+If you want to creat a page to list all posts on your Google Blogger by time, [view this repository](https://github.com/5j54d93/Blogger-All-Post-List).
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Demo-All-Posts-List.gif" width='100%' height='100%'/>
+
 ## License：MIT
 
 This package is [MIT licensed](https://github.com/5j54d93/Google-Blogger-Template/blob/main/LICENSE).
