@@ -29,7 +29,7 @@
 2. Click on the down triangle button beside "Custom"
 3. Clink "Edit HTML"
 
-<img src="https://github.com/5j54d93/Blogger-Template/blob/main/photo/Blogger：Theme.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Blogger：Theme%20Page.png" width='100%' height='100%'/>
 
 4. Delete all code you see
 5. Fork this repository and custom [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/theme.xhtml) through [this README.md file](https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/README.md) to fit your blog
