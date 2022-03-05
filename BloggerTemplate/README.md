@@ -1,6 +1,6 @@
 # Customize Your Google Blogger Template
 
-Customize [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) wit this README.md file！
+Customize [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) with this README.md file！
 
 ## Tag：`<html>`
 
@@ -94,6 +94,28 @@ Customize [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/b
       <path d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z'/>
     </svg>
   </a>
+</div>
+```
+
+## Main
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Most%20popular%20post.png" width='100%' height='100%'/>
+
+- [LINE 320 ～ LINE 327](https://github.com/5j54d93/Google-Blogger-Template/blob/9e39c18ed49af59993ff495ccfce373bb067d215/BloggerTemplate/BloggerTemplate.xhtml#L320-L327)：code here will automatically show the most popular post, all you need to do is：
+  - `發燒文章` means popular article：translate it to your language
+  - `瀏覽次數` means views count：translate it to your language
+  - `10.2 萬次` means number of views count：because there's no API to get the number of views count, you need to edit it by hand
+  - `發布日期&#65306;2019 年 8 月 12 日` means post date：translate it to your language, there's no API to get the post date too
+  - `閱讀發燒文章` means read popular article：translate it to your language
+
+```xml
+<div class='alert alert-success mt-4' role='alert'>
+  <h6><span class='line-green'>發燒文章 #1</span><span class='text-muted'>&#12539;瀏覽次數&#65306;10.2 萬次&#12539;發布日期&#65306;2019 年 8 月 12 日</span></h6>
+  <header><h1 class='alert-heading fst-italic mb-3'><data:post.title/></h1></header>
+  <div style='text-align:justify;'><data:post.snippet/></div>
+  <div class='d-flex justify-content-end'>
+    <a class='btn btn-outline-success line-green stretched-link mt-3' expr:href='data:post.href'>閱讀發燒文章</a>
+  </div>
 </div>
 ```
 
