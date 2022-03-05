@@ -1,6 +1,6 @@
 # Customize Your Google Blogger Template
 
-Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) with this README.md file！
+Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/BloggerTemplate.xhtml) with this README.md file！
 
 ## Overview
 
@@ -21,7 +21,7 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 
 ## Navbar
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Navbar.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Navbar.png" width='100%' height='100%'/>
 
 - [LINE 223](https://github.com/5j54d93/Google-Blogger-Template/blob/1dff835b2763b0f5e5182e392efd31b14a9b93d9/BloggerTemplate/BloggerTemplate.xhtml#L223)：change `看我所見` to yuor blog title
 
@@ -56,7 +56,7 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 </div>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Navbar：social%20media%20links.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Navbar：social%20media%20links.png" width='100%' height='100%'/>
 
 - [LINE 260 ～ LINE 302](https://github.com/5j54d93/Google-Blogger-Template/blob/a522867eef459f7971b3977a82a48d8fd821b61b/BloggerTemplate/BloggerTemplate.xhtml#L260-L302)：change `href` in each tag `<a>` to your social media link
 
@@ -108,7 +108,7 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 
 ## Main
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Most%20popular%20post.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Most%20popular%20post.png" width='100%' height='100%'/>
 
 - [LINE 320 ～ LINE 327](https://github.com/5j54d93/Google-Blogger-Template/blob/9e39c18ed49af59993ff495ccfce373bb067d215/BloggerTemplate/BloggerTemplate.xhtml#L320-L327)：code here will automatically show the most popular post, all you need to do is：
   - `發燒文章` means popular article：translate it to your language
@@ -128,13 +128,13 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 </div>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Archive%20Tag.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Archive%20Tag.png" width='100%' height='100%'/>
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/404%20Tag.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/404%20Tag.png" width='100%' height='100%'/>
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search%20None.png" width='50%' height='100%'/><img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search.png" width='50%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Search%20None.png" width='50%' height='100%'/><img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Search.png" width='50%' height='100%'/>
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search%20Date.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Search%20Date.png" width='100%' height='100%'/>
 
 - [LINE 369 ～ LINE 388](https://github.com/5j54d93/Google-Blogger-Template/blob/78b95010566af0cb434b3c655420fe79927f297d/BloggerTemplate/BloggerTemplate.xhtml#L369-L388)：different tag between different blog page type（I've translated code below for you！）
 
@@ -161,7 +161,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </h4>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Blog%20Page%20Link.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Blog%20Page%20Link.png" width='100%' height='100%'/>
 
 - [LINE 449 ～ LINE 474](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L449-L474)：newer link、Home、older link after post（I've translated code below for you！）
 
@@ -194,7 +194,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </div>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Blog%20Post%20Info.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Blog%20Post%20Info.png" width='100%' height='100%'/>
 
 - [LINE 479 ～ LINE 496](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L479-L496)：Post info：title、post date、number of comments、topic button
 
@@ -219,7 +219,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </header>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Share%20Button.png" width='30%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Share%20Button.png" width='30%' height='100%'/>
 
 - [LINE 502 ～ LINE 507](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L502-L507)：triger modal on click
 
@@ -232,7 +232,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </button>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Copy%20Link%20Modal.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Copy%20Link%20Modal.png" width='100%' height='100%'/>
 
 - [LINE 508 ～ LINE 534](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L508-L534)：Modal for copy post link
 
@@ -266,7 +266,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </script>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Toast.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Toast.png" width='100%' height='100%'/>
 
 - [LINE 535 ～ LINE 544](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L535-L544)：Toast for「Link copied to clipboard」alert
 
@@ -283,7 +283,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </div>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/ShareButtons.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/ShareButtons.png" width='100%' height='100%'/>
 
 - [LINE 574 ～ LINE 603](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L574-L603)：Share buttons to share post to socail media
 
@@ -320,7 +320,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 </a>
 ```
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/PopularPosts.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/PopularPosts.png" width='100%' height='100%'/>
 
 - [LINE 846 ～ LINE 859](https://github.com/5j54d93/Google-Blogger-Template/blob/183310d3b561c5b25098f43bb3e9c3df98182bba/BloggerTemplate/BloggerTemplate.xhtml#L846-L859)：10 popular posts this month
 
@@ -343,7 +343,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 
 ## Side Bar
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Side%20Bar.png" width='50%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Side%20Bar.png" width='50%' height='100%'/>
 
 - [LINE 868](https://github.com/5j54d93/Google-Blogger-Template/blob/39af93de0698abddc59311e213689286a740a013/BloggerTemplate/BloggerTemplate.xhtml#L868)：I've translated code for you, so just write something about your blog
 
@@ -353,7 +353,7 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
 
 ## Footer
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Footer.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/BloggerTemplate/.github/assets/Footer.png" width='100%' height='100%'/>
 
 - [LINE 931 ～ LINE 941](https://github.com/5j54d93/Google-Blogger-Template/blob/39af93de0698abddc59311e213689286a740a013/BloggerTemplate/BloggerTemplate.xhtml#L931-L941)：write copyright and links for your blog
 
