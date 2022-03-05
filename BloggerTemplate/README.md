@@ -1,6 +1,6 @@
 # Customize Your Google Blogger Template
 
-Customize [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) with this README.md file！
+Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) with this README.md file！
 
 ## Tag：`<html>`
 
