@@ -1,5 +1,7 @@
 # Customize Your Google Blogger Template
 
+Customize [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) wit this README.md file！
+
 ## Tag：`<html>`
 
 - [LINE 3](https://github.com/5j54d93/Google-Blogger-Template/blob/e8952e14d92cbbcfeb4b5ab6eef608db19608c15/BloggerTemplate/BloggerTemplate.xhtml#L3)：change `lang='zh-TW'` to fit your blogger language, if yours is English, change to `lang='en'`
@@ -94,3 +96,7 @@
   </a>
 </div>
 ```
+
+## License：MIT
+
+This package is [MIT licensed](https://github.com/5j54d93/Google-Blogger-Template/blob/main/LICENSE).
