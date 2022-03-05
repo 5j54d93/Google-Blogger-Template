@@ -4,12 +4,12 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 
 ## Overview
 
-1. [**Tag：`<html>`**]()
-2. [**Navbar**]()
-3. [**Main**]()
-4. [**Side Bar**]()
-5. [**Footer**]()
-6. [**License：MIT**]()
+1. [**Tag：`<html>`**](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate#taghtml)
+2. [**Navbar**](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate#navbar)
+3. [**Main**](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate#main)
+4. [**Side Bar**](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate#side-bar)
+5. [**Footer**](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate#footer)
+6. [**License：MIT**](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate#licensemit)
 
 ## Tag：`<html>`
 
