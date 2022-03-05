@@ -11,7 +11,7 @@
   
   <link expr:href='data:blog.url' rel='canonical'/>
   
-  <!-- Bootstrap CSS 在所有樣式表之前-->
+  <!-- Bootstrap CSS -->
   <link crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css' integrity='sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0' rel='stylesheet'/>
   <link defer='true' href='https://www.blogger.com/static/v1/widgets/1324390690-widget_css_bundle.css' rel='stylesheet'/>
   <b:skin><![CDATA[]]></b:skin>
@@ -356,7 +356,7 @@
               <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>
-              <b:widget-setting name='postLabelsLabel'>主題&#65306;</b:widget-setting>
+              <b:widget-setting name='postLabelsLabel'>Topic&#65306;</b:widget-setting>
               <b:widget-setting name='showBacklinks'>false</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
               <b:widget-setting name='showReactions'>false</b:widget-setting>
@@ -369,14 +369,13 @@
                   <h4 class='alert alert-warning text-center' role='alert'>
                     <b:switch var='data:blog.pageType'>
                       <b:case value='archive'/>
-                        在&#12300;<data:blog.pageName/>&#12301;有 <data:posts.length/> 篇文章
+			there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
                       <b:case value='error_page'/>
-                        已經刪除的內容&#65292;錯過是無法再相見的&#65281;
-                        <hr/>
-                        <p class='fs-6 fw-normal mb-0'>回到首頁逛逛&#65281;或搜尋其他文章吧&#65374;下方也列出了本月的十大發燒文章&#65292;歡迎看看&#65281;</p>
+			404
                       <b:case value='index'/>
                         <b:if cond='data:blog.searchQuery'>
                           <b:if cond='data:posts.length == 0'>
+			    there aren't any post about&#12300;<data:blog.searchQuery/>&#12301;
                             找不到和&#12300;<data:blog.searchQuery/>&#12301;相關的文章😢
                           <b:else/>
                             找到 <data:posts.length/> 篇&#12300;<data:blog.searchQuery/>&#12301;相關文章
