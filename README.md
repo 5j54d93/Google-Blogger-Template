@@ -17,7 +17,7 @@
 - automatic switch between `light theme` & `dark theme`
 - custom search bar、custom search page、custom archive page、custom topic page
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Demo.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/.github/assets/Demo.png" width='100%' height='100%'/>
 
 > Demo website：[**sharing-life-in-tw.blogspot.com**](https://sharing-life-in-tw.blogspot.com)
 
@@ -35,7 +35,7 @@
 2. Click on the down triangle button beside "Custom"
 3. Clink "Edit HTML"
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Blogger：Theme%20Page.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/.github/assets/Blogger：Theme%20Page.png" width='100%' height='100%'/>
 
 4. Delete all code you see
 5. Fork this repository and custom [this XHTML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) through [this README.md file](https://github.com/5j54d93/Google-Blogger-Template/tree/main/BloggerTemplate) to fit your blog
@@ -64,7 +64,7 @@ You could design your own blogger website start by using the simplest code below
 
 If you want to creat a page to list all posts on your Google Blogger by time, [view this repository](https://github.com/5j54d93/Blogger-All-Post-List).
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Demo：All-Posts-List.gif" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v2.0.0/.github/assets/Demo：All-Posts-List.gif" width='100%' height='100%'/>
 
 ## License：MIT
 
