@@ -21,8 +21,8 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 ```
 
 - [LINE 228 ～ LINE 247](https://github.com/5j54d93/Google-Blogger-Template/blob/1dff835b2763b0f5e5182e392efd31b14a9b93d9/BloggerTemplate/BloggerTemplate.xhtml#L228-L247)：change `贊助`、`所有文章`、`社群連結` to yuor blog page, and change `發燒文章`、`使用說明`、`隱私政策` to links you want to show in `dropdown` list
-  - `一般`：means general
-  - `說明與法規`：means help & legal
+  - `一般` means general：translate it to your language
+  - `說明與法規` means help & legal：translate it to your language
 
 ```xml
 <div class='navbar-nav flex-row'>
