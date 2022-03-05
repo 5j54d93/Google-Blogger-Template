@@ -2,6 +2,15 @@
 
 Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/BloggerTemplate.xhtml) with this README.md file！
 
+## Overview
+
+1. [**Tag：`<html>`**]()
+2. [**Navbar**]()
+3. [**Main**]()
+4. [**Side Bar**]()
+5. [**Footer**]()
+6. [**License：MIT**]()
+
 ## Tag：`<html>`
 
 - [LINE 3](https://github.com/5j54d93/Google-Blogger-Template/blob/e8952e14d92cbbcfeb4b5ab6eef608db19608c15/BloggerTemplate/BloggerTemplate.xhtml#L3)：change `lang='zh-TW'` to fit your blogger language, if yours is English, change to `lang='en'`
@@ -127,7 +136,7 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search%20Date.png" width='100%' height='100%'/>
 
-- [LINE 369 ～ LINE 388](https://github.com/5j54d93/Google-Blogger-Template/blob/78b95010566af0cb434b3c655420fe79927f297d/BloggerTemplate/BloggerTemplate.xhtml#L369-L388)：different tag between different blog page type
+- [LINE 369 ～ LINE 388](https://github.com/5j54d93/Google-Blogger-Template/blob/78b95010566af0cb434b3c655420fe79927f297d/BloggerTemplate/BloggerTemplate.xhtml#L369-L388)：different tag between different blog page type（I've translated code below for you！）
 
 ```xml
 <h4 class='alert alert-warning text-center' role='alert'>
@@ -150,6 +159,216 @@ there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
     <b:default/>
   </b:switch>
 </h4>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Blog%20Page%20Link.png" width='100%' height='100%'/>
+
+- [LINE 449 ～ LINE 474](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L449-L474)：newer link、Home、older link after post（I've translated code below for you！）
+
+```xml
+<div class='blog-pager' id='blog-pager'>
+  <b:if cond='data:newerPageUrl and data:view.isSingleItem'>
+    <span id='blog-pager-newer-link'>
+      <a class='btn btn-outline-primary me-2' expr:href='data:newerPageUrl' role='button'><data:newerPageTitle/></a>
+    </span>
+    <b:elseif cond='data:view.isSingleItem'/>
+    <span id='blog-pager-newer-link'>
+      <a class='btn btn-outline-secondary me-2 disabled' expr:href='data:newerPageUrl' role='button'>No newer post</a>
+    </span>
+  </b:if>
+
+  <b:if cond='data:olderPageUrl and data:view.isSingleItem'>
+    <span id='blog-pager-older-link'>
+      <a class='btn btn-outline-primary ms-2' expr:href='data:olderPageUrl' role='button'><data:olderPageTitle/></a>
+    </span>
+    <b:elseif cond='data:view.isSingleItem'/>
+    <span id='blog-pager-older-link'>
+      <a class='btn btn-outline-secondary ms-2 disabled' expr:href='data:newerPageUrl' role='button'>No older post</a>
+    </span>
+  </b:if>
+
+  <b:if cond='data:blog.url != data:blog.homepageUrl'>
+    <a class='btn alert-warning d-grid' expr:href='data:blog.homepageUrl' role='button'><data:homeMsg/></a>
+  </b:if>
+
+</div>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Blog%20Post%20Info.png" width='100%' height='100%'/>
+
+- [LINE 479 ～ LINE 496](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L479-L496)：Post info：title、post date、number of comments、topic button
+
+```xml
+<b:if cond='!data:view.isSingleItem and data:blog.url != data:blog.homepageUrl'>
+  <div class='text-theme-color'>#<b:eval expr='data:index+1'/></div>
+</b:if>
+<header>
+  <h1 class='card-title fs-3 fw-bold'><data:post.title/></h1>
+  <h6 class='card-subtitle text-muted my-2' style='line-height:1.5;'>
+    <data:post.timestamp/>
+    <span>&#12539;<data:post.numComments/> comments</span>
+    <span class='post-labels'>
+      <b:if cond='data:top.showPostLabels and data:post.labels'>
+        &#12539;<data:postLabelsLabel/>
+        <b:loop values='data:post.labels' var='label'>
+          <a class='badge rounded-pill' expr:href='data:label.url' rel='tag' role='button'><data:label.name/></a>
+        </b:loop>
+      </b:if>
+    </span>
+  </h6>
+</header>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Share%20Button.png" width='30%' height='100%'/>
+
+- [LINE 502 ～ LINE 507](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L502-L507)：triger modal on click
+
+```xml
+<button class='btn btn-sm Share-btn my-1' data-bs-target='#shareModal' data-bs-toggle='modal'>
+  <svg class='bi bi-share' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
+    <path d='M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z'/>
+  </svg>
+  Share
+</button>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Copy%20Link%20Modal.png" width='100%' height='100%'/>
+
+- [LINE 508 ～ LINE 534](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L508-L534)：Modal for copy post link
+
+```xml
+<div aria-hidden='true' aria-labelledby='shareModalLabel' class='modal fade' id='shareModal' tabindex='-1'>
+  <div class='modal-dialog modal-dialog-centered'>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <h5 class='modal-title text-dark' id='shareModalLabel'>Copy link</h5>
+        <button aria-label='Close' class='btn-close' data-bs-dismiss='modal' id='closeWilltoCopyPostUrl' type='button'/>
+      </div>
+      <div class='modal-body'>
+        <div class='d-flex'>
+          <div class='flex-grow-1'>
+            <input class='form-control-plaintext form-control-sm' expr:value='data:post.url' id='sharePostUrl' readonly='readonly' style='background-color:rgb(247,248,250); padding-left: 10px; padding-right: 10px;' type='url'/>
+          </div>
+          <button class='btn btn-primary btn-sm ms-2' onclick='copyPostUrl()' type='button'>Copy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function copyPostUrl() {
+    document.getElementById(&#39;closeWilltoCopyPostUrl&#39;).click();
+    var url = document.getElementById(&#39;sharePostUrl&#39;);
+    url.select();
+    navigator.clipboard.writeText(url.value);
+    new bootstrap.Toast(document.getElementById(&#39;liveToast1&#39;)).show();
+  }
+</script>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Toast.png" width='100%' height='100%'/>
+
+- [LINE 535 ～ LINE 544](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L535-L544)：Toast for「Link copied to clipboard」alert
+
+```xml
+<div class='position-fixed bottom-0 end-0 p-3' style='width:320px; z-index:5;'>
+  <div aria-atomic='true' aria-live='assertive' class='toast text-dark bg-white border hide' data-bs-animation='true' id='liveToast1' role='alert'>
+    <div class='d-flex p-2'>
+      <div class='toast-body'>
+        Link copied to clipboard
+      </div>
+      <button aria-label='Close' class='btn-close me-2 m-auto' data-bs-dismiss='toast' type='button'/>
+    </div>
+  </div>
+</div>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/ShareButtons.png" width='100%' height='100%'/>
+
+- [LINE 574 ～ LINE 603](https://github.com/5j54d93/Google-Blogger-Template/blob/0cf85a26a5f5c200cb0a3533dd3ce14d1b468995/BloggerTemplate/BloggerTemplate.xhtml#L574-L603)：Share buttons to share post to socail media
+
+```xml
+<!--Email-->
+<a class='btn btn-sm btn-outline-danger yt-red me-1 my-1' data-bs-placement='bottom' data-bs-toggle='tooltip' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' role='button' target='_blank' title='用 Email 分享！'>
+  <svg class='bi bi-envelope-fill' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
+    <path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z'/>
+  </svg>
+</a>
+<!--LINE-->
+<a class='btn btn-sm btn-outline-danger line-green me-1 my-1' data-bs-placement='bottom' data-bs-toggle='tooltip' expr:href='&quot;https://social-plugins.line.me/lineit/share?url=&quot; + data:post.url' role='button' target='_blank' title='分享到 LINE！'>
+  <svg class='bi bi-line' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
+    <path d='M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z'/>
+  </svg>
+</a>
+<!--Twitter-->
+<a class='btn btn-sm btn-outline-secondary twitter-blue me-1 my-1' data-bs-placement='bottom' data-bs-toggle='tooltip' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' role='button' target='_blank' title='分享到 Twitter！'>
+  <svg class='bi bi-twitter' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
+    <path d='M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z'/>
+  </svg>
+</a>
+<!--Facebook-->
+<a class='btn btn-sm btn-outline-secondary facebook-blue me-1 my-1' data-bs-placement='bottom' data-bs-toggle='tooltip' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' role='button' target='_blank' title='分享到 Facebook！'>
+  <svg class='bi bi-facebook' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
+    <path d='M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z'/>
+  </svg>
+</a>
+<!--Messenger-->
+<a class='btn btn-sm btn-outline-secondary purple my-1' data-bs-placement='bottom' data-bs-toggle='tooltip' expr:href='&quot;fb-messenger://share/?link=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' role='button' target='_blank' title='分享到 Messenger！'>
+  <svg class='bi bi-messenger' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
+    <path d='M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z'/>
+  </svg>
+</a>
+```
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/PopularPosts.png" width='100%' height='100%'/>
+
+- [LINE 846 ～ LINE 859](https://github.com/5j54d93/Google-Blogger-Template/blob/183310d3b561c5b25098f43bb3e9c3df98182bba/BloggerTemplate/BloggerTemplate.xhtml#L846-L859)：10 popular posts this month
+
+```xml
+<div class='widget-content popular-posts row mb-4 g-4'>
+  <b:loop index='index' values='data:posts' var='post'>
+    <div class='col-lg-6'>
+      <div class='card h-100'>
+        <div class='card-body d-flex flex-column'>
+          <div class='text-theme-color'>#<b:eval expr='data:index+1'/></div>
+          <header><h4 class='card-title fw-bold'><data:post.title/></h4></header>
+          <div class='item-snippet my-3'><data:post.snippet/></div>
+          <a class='btn btn-outline-primary stretched-link d-grid mt-auto' expr:href='data:post.href'>Read popular post this month</a>
+        </div>
+      </div>
+    </div>
+  </b:loop>
+</div>
+```
+
+## Side Bar
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Side%20Bar.png" width='50%' height='100%'/>
+
+- [LINE 868](https://github.com/5j54d93/Google-Blogger-Template/blob/39af93de0698abddc59311e213689286a740a013/BloggerTemplate/BloggerTemplate.xhtml#L868)：I've translated code for you, so just write something about your blog
+
+```xml
+<p class='mb-2'>本網站成立於 2019 年 7 月 17 日&#12290;累計有 146 篇文章&#65281;分享筆者的生活經歷與特殊經驗&#65281;</p>
+```
+
+## Footer
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Footer.png" width='100%' height='100%'/>
+
+- [LINE 931 ～ LINE 941](https://github.com/5j54d93/Google-Blogger-Template/blob/39af93de0698abddc59311e213689286a740a013/BloggerTemplate/BloggerTemplate.xhtml#L931-L941)：write copyright and links for your blog
+
+```xml
+<p class='text-center'>
+  Copyright &#169; 2022 看我所見&#65372;
+  <a href='/'>首頁</a>&#65372;
+  <a href='/p/support-us.html' target='_blank'>贊助</a>&#65372;
+  <a href='#PopularPosts1'>發燒文章</a>&#65372;
+  <a href='https://linktr.ee/5j_54d93' target='_blank'>社群連結</a>&#65372;
+  <a href='/p/all-posts.html' target='_blank'>所有文章</a>&#65372;
+  <a href='/' target='_blank'>使用說明</a>&#65372;
+  <a href='/p/privacy-policy.html' target='_blank'>隱私政策</a>&#65372;
+  Designed with &#10084;&#65039; by Ricky Chuang
+</p>
 ```
 
 ## License：MIT
