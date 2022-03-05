@@ -835,33 +835,6 @@
           </b:widget>
         </b:section>
         <b:section id='BlogPost1'>
-          <b:widget cond='data:blog.url != data:postUrl and data:blog.url != data:blog.homepageUrl' id='FeaturedPost0' locked='false' title='精選文章' type='FeaturedPost' version='1'>
-            <b:widget-settings>
-              <b:widget-setting name='showSnippet'>true</b:widget-setting>
-              <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-              <b:widget-setting name='postId'>0</b:widget-setting>
-              <b:widget-setting name='showFirstImage'>true</b:widget-setting>
-              <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-              <div class='alert alert-success' role='alert'>
-                <header><h3 class='fw-bold mb-2'><data:postTitle/></h3></header>
-                <b:if cond='data:postFirstImage'>
-                  <div class='d-flex align-items-center'>
-                    <img class='flex-shrink-0 me-3 img-thumbnail' expr:alt='data:postTitle' expr:src='data:postFirstImage' height='144' loading='lazy' width='144'/>
-                    <div class='flex-grow-1 item-snippet mb-auto'>
-                      <data:postSummary/>
-                      <a class='btn btn-outline-success line-green stretched-link d-grid mt-3' expr:href='data:postUrl'>Read newest post</a>
-                    </div>
-                  </div>
-                <b:else/>
-                  <div class='item-snippet'><data:postSummary/></div>
-                  <a class='btn btn-outline-success line-green stretched-link d-grid mt-3' expr:href='data:postUrl'>Read newest post</a>
-                </b:if>
-              </div>
-            </b:includable>
-            <b:includable id='content'/>
-          </b:widget>
           <b:widget id='PopularPosts1' locked='true' title='熱門文章' type='PopularPosts' version='1'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
