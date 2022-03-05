@@ -21,7 +21,7 @@ There are many html code（include Google AdSense code）you need to change to f
 
 ## Blogger Template｜Navigation Bar
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Navigation%20Bar：Pages.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Navigation%20Bar：Pages.png" width='100%' height='100%'/>
 
 ### Home
 
@@ -65,7 +65,7 @@ There are many html code（include Google AdSense code）you need to change to f
 
 ### Social Media Links
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Navigation%20Bar：Social%20Media%20Links.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Navigation%20Bar：Social%20Media%20Links.png" width='100%' height='100%'/>
 
 - From [Line 91](https://github.com/5j54d93/Google-Blogger-Template/blob/842d47e501f94b02cb60291e2dd77d65834cc48f/blogger_template/theme.html#L91) to [Line 104](https://github.com/5j54d93/Google-Blogger-Template/blob/842d47e501f94b02cb60291e2dd77d65834cc48f/blogger_template/theme.html#L104)：All you need to do is change the link in `href=''` to your social media's link.
 
@@ -90,7 +90,7 @@ There are many html code（include Google AdSense code）you need to change to f
 
 ### Selected feature article
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：Selected%20feature%20article.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Body：Selected%20feature%20article.png" width='100%' height='100%'/>
 
 - [Line 113](https://github.com/5j54d93/Google-Blogger-Template/blob/951e2ff55caf4b06ba18ca5160f86bceb8eaa419/blogger_template/theme.html#L113)：this selected feature article will only show on Home page
 
@@ -123,7 +123,7 @@ _You could put a Google Ad after this selected feature article！_
 
 ### 5 latest articles
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：5%20latest%20articles.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Body：5%20latest%20articles.png" width='100%' height='100%'/>
 
 - [Line 176](https://github.com/5j54d93/Google-Blogger-Template/blob/ecd7b7d6c533fd91d72f15d9e78a942c3ff0d3a9/blogger_template/theme.html#L176)：`閱讀最新文章` means Read Newest Article, you could translate into your language.
 
@@ -135,7 +135,7 @@ _You could put a Google Ad after this 5 latest articles！_
 
 ### 10 most popular articles
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Body：10%20trending%20articles.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Body：10%20trending%20articles.png" width='100%' height='100%'/>
 
 - [Line 1018](https://github.com/5j54d93/Google-Blogger-Template/blob/ec2cdc9f9fc2fcd2e30220d0c3b0fc3a9890b444/blogger_template/theme.html#L1018)：`閱讀本月熱門文章` means Read trending articles this month, you could translate into your language.
 
@@ -149,7 +149,7 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ### About & Share Buttons
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar：About%20%26%20Share%20Buttons.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Side%20Bar：About%20%26%20Share%20Buttons.png" width='100%' height='100%'/>
 
 - [Line 1034](https://github.com/5j54d93/Google-Blogger-Template/blob/1775ce3b1f5a021f576ffb433b8290fe0a27afb5/blogger_template/theme.html#L1034)：`關於` means About, you could translate into your language.
 
@@ -183,7 +183,7 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ### Views
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar：Views.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Side%20Bar：Views.png" width='100%' height='100%'/>
 
 - [Line 1042](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1042)：`總瀏覽次數` means Total Views, you could translate into your language.
 
@@ -193,7 +193,7 @@ _You could put a Google Ad after this 10 most popular articles！_
 
 ### Followers
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Side%20Bar：Followers.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Side%20Bar：Followers.png" width='100%' height='100%'/>
 
 - [Line 1065](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1065)：`歡迎追蹤` means Welcome to Follow, you could translate into your language.
 
@@ -205,7 +205,7 @@ _You could put a Google Ad after this Side Bar！_
 
 ## Blogger Template｜Footer
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/blogger_template/photo/Footer.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/blogger_template/photo/Footer.png" width='100%' height='100%'/>
 
 - [Line 1118](https://github.com/5j54d93/Google-Blogger-Template/blob/c1b8e07a8e598d623d44bd3466a19ad19c93e077/blogger_template/theme.html#L1118)：All you need to do is change `看我所見` to your blog's name.
 
