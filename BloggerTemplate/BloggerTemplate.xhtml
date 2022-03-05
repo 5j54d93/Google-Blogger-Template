@@ -375,14 +375,13 @@
                       <b:case value='index'/>
                         <b:if cond='data:blog.searchQuery'>
                           <b:if cond='data:posts.length == 0'>
-			    there aren't any post about&#12300;<data:blog.searchQuery/>&#12301;
-                            找不到和&#12300;<data:blog.searchQuery/>&#12301;相關的文章😢
+			    there aren't any post about&#12300;<data:blog.searchQuery/>&#12301;😢
                           <b:else/>
-                            找到 <data:posts.length/> 篇&#12300;<data:blog.searchQuery/>&#12301;相關文章
+			    there are <data:posts.length/> posts about&#12300;<data:blog.searchQuery/>&#12301;
                           </b:if>
                         </b:if>
                         <b:if cond='data:blog.searchLabel'>
-                          共有 <data:posts.length/> 篇&#12300;<data:blog.searchLabel/>&#12301;主題文章
+			  there are <data:posts.length/> posts about&#12300;<data:blog.searchLabel/>&#12301;
                         </b:if>
                       <b:default/>
                     </b:switch>
@@ -434,7 +433,7 @@
                 <div class='card'>
                   <div class='card-body'>
                     <b:include data='post' name='comment-form'/>
-                    <p class='text-muted text-center'>如無法順利留言&#65292;你可能需改用 Chrome 瀏覽器</p>
+                    <p class='text-muted text-center'>If you can't commemt, try using Chrome instead.</p>
                   </div>
                 </div>
               </div>
@@ -454,7 +453,7 @@
                   </span>
                   <b:elseif cond='data:view.isSingleItem'/>
                   <span id='blog-pager-newer-link'>
-                    <a class='btn btn-outline-secondary me-2 disabled' expr:href='data:newerPageUrl' role='button'>無較新文章</a>
+                    <a class='btn btn-outline-secondary me-2 disabled' expr:href='data:newerPageUrl' role='button'>No newer post</a>
                   </span>
                 </b:if>
 
@@ -464,7 +463,7 @@
                   </span>
                   <b:elseif cond='data:view.isSingleItem'/>
                   <span id='blog-pager-older-link'>
-                    <a class='btn btn-outline-secondary ms-2 disabled' expr:href='data:newerPageUrl' role='button'>無較舊文章</a>
+                    <a class='btn btn-outline-secondary ms-2 disabled' expr:href='data:newerPageUrl' role='button'>No older post</a>
                   </span>
                 </b:if>
 
@@ -478,18 +477,18 @@
               <div class='card mb-4'>
                 <article class='card-body'>
                   <b:if cond='!data:view.isSingleItem and data:blog.url != data:blog.homepageUrl'>
-                    <div class='text-theme-color'>第 <b:eval expr='data:index+1'/> 篇</div>
+                    <div class='text-theme-color'>#<b:eval expr='data:index+1'/></div>
                   </b:if>
                   <header>
                     <h1 class='card-title fs-3 fw-bold'><data:post.title/></h1>
                     <h6 class='card-subtitle text-muted my-2' style='line-height:1.5;'>
-                      發布日期&#65306;<data:post.timestamp/>
-                      <span>&#12539;<data:post.numComments/> 則留言</span>
+                      <data:post.timestamp/>
+                      <span>&#12539;<data:post.numComments/> comments</span>
                       <span class='post-labels'>
                         <b:if cond='data:top.showPostLabels and data:post.labels'>
                           &#12539;<data:postLabelsLabel/>
                           <b:loop values='data:post.labels' var='label'>
-                            <a class='badge rounded-pill' data-bs-placement='bottom' data-bs-toggle='tooltip' expr:href='data:label.url' expr:title='&quot;「&quot; + data:label.name + &quot;」主題文章&quot;' rel='tag' role='button'><data:label.name/></a>
+                            <a class='badge rounded-pill' expr:href='data:label.url' rel='tag' role='button'><data:label.name/></a>
                           </b:loop>
                         </b:if>
                       </span>
@@ -504,13 +503,13 @@
                         <svg class='bi bi-share' fill='currentColor' height='18' viewBox='0 0 17 17' width='18' xmlns='http://www.w3.org/2000/svg'>
                           <path d='M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z'/>
                         </svg>
-                        分享
+                        Share
                       </button>
                       <div aria-hidden='true' aria-labelledby='shareModalLabel' class='modal fade' id='shareModal' tabindex='-1'>
                         <div class='modal-dialog modal-dialog-centered'>
                           <div class='modal-content'>
                             <div class='modal-header'>
-                              <h5 class='modal-title text-dark' id='shareModalLabel'>複製文章連結</h5>
+                              <h5 class='modal-title text-dark' id='shareModalLabel'>Copy link</h5>
                               <button aria-label='Close' class='btn-close' data-bs-dismiss='modal' id='closeWilltoCopyPostUrl' type='button'/>
                             </div>
                             <div class='modal-body'>
@@ -518,7 +517,7 @@
                                 <div class='flex-grow-1'>
                                   <input class='form-control-plaintext form-control-sm' expr:value='data:post.url' id='sharePostUrl' readonly='readonly' style='background-color:rgb(247,248,250); padding-left: 10px; padding-right: 10px;' type='url'/>
                                 </div>
-                                <button class='btn btn-primary btn-sm ms-2' onclick='copyPostUrl()' type='button'>複製</button>
+                                <button class='btn btn-primary btn-sm ms-2' onclick='copyPostUrl()' type='button'>Copy</button>
                               </div>
                             </div>
                           </div>
@@ -537,7 +536,7 @@
                         <div aria-atomic='true' aria-live='assertive' class='toast text-dark bg-white border hide' data-bs-animation='true' id='liveToast1' role='alert'>
                           <div class='d-flex p-2'>
                             <div class='toast-body'>
-                              已將連結複製到剪貼簿&#65281;
+                              Link copied to clipboard
                             </div>
                             <button aria-label='Close' class='btn-close me-2 m-auto' data-bs-dismiss='toast' type='button'/>
                           </div>
@@ -554,16 +553,16 @@
                         <img class='flex-shrink-0 ms-3 img-thumbnail' expr:alt='data:post.title' expr:src='data:post.thumbnailUrl' loading='lazy'/>
                       </div>
                       <b:if cond='data:blog.url == data:blog.homepageUrl'>
-                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>閱讀最新文章</a>
+                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>Read newest post</a>
                         <b:else/>
-                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>閱讀文章</a>
+                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>Read post</a>
                       </b:if>
                     <b:else/>
                       <div class='item-snippet'><data:post.snippet/></div>
                       <b:if cond='data:blog.url == data:blog.homepageUrl'>
-                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>閱讀最新文章</a>
+                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>Read newest post</a>
                         <b:else/>
-                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>閱讀文章</a>
+                        <a class='btn btn-outline-primary stretched-link d-grid mt-3' expr:href='data:post.link ? data:post.link : data:post.url'>Read post</a>
                       </b:if>
                     </b:if>
                   </b:if>
@@ -828,7 +827,7 @@
                         <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'/>
                       </div>
                     </b:if>
-                    <p class='text-muted text-center'>如無法順利留言&#65292;你可能需改用 Chrome 瀏覽器</p>
+                    <p class='text-muted text-center'>If you can't comment, try using Chrome instead.</p>
                   </div>
                 </div>
               </div>
@@ -852,12 +851,12 @@
                     <img class='flex-shrink-0 me-3 img-thumbnail' expr:alt='data:postTitle' expr:src='data:postFirstImage' height='144' loading='lazy' width='144'/>
                     <div class='flex-grow-1 item-snippet mb-auto'>
                       <data:postSummary/>
-                      <a class='btn btn-outline-success line-green stretched-link d-grid mt-3' expr:href='data:postUrl'>閱讀最新文章</a>
+                      <a class='btn btn-outline-success line-green stretched-link d-grid mt-3' expr:href='data:postUrl'>Read newest post</a>
                     </div>
                   </div>
                 <b:else/>
                   <div class='item-snippet'><data:postSummary/></div>
-                  <a class='btn btn-outline-success line-green stretched-link d-grid mt-3' expr:href='data:postUrl'>閱讀最新文章</a>
+                  <a class='btn btn-outline-success line-green stretched-link d-grid mt-3' expr:href='data:postUrl'>Read newest post</a>
                 </b:if>
               </div>
             </b:includable>
@@ -876,10 +875,10 @@
                   <div class='col-lg-6'>
                     <div class='card h-100'>
                       <div class='card-body d-flex flex-column'>
-                        <div class='text-theme-color'>發燒文章 #<b:eval expr='data:index+1'/></div>
+                        <div class='text-theme-color'>#<b:eval expr='data:index+1'/></div>
                         <header><h4 class='card-title fw-bold'><data:post.title/></h4></header>
                         <div class='item-snippet my-3'><data:post.snippet/></div>
-                        <a class='btn btn-outline-primary stretched-link d-grid mt-auto' expr:href='data:post.href'>閱讀本月發燒文章</a>
+                        <a class='btn btn-outline-primary stretched-link d-grid mt-auto' expr:href='data:post.href'>Read popular post this month</a>
                       </div>
                     </div>
                   </div>
@@ -892,7 +891,7 @@
       <aside class='col-lg-4'>
         <div class='position-sticky' style='top:5.5rem;'>
           <div class='card p-4 mb-4'>
-            <h4 class='fw-bold'>關於</h4>
+            <h4 class='fw-bold'>About</h4>
             <p class='mb-2'>本網站成立於 2019 年 7 月 17 日&#12290;累計有 146 篇文章&#65281;分享筆者的生活經歷與特殊經驗&#65281;</p>
             <b:section id='ViewsCount'>
               <b:widget id='Stats0' locked='false' title='總網頁瀏覽量' type='Stats' version='1'>
@@ -905,7 +904,7 @@
                 </b:widget-settings>
                 <b:includable id='main'>
                   <hr/>
-                  <h4 class='fw-bold'>總瀏覽次數</h4>
+                  <h4 class='fw-bold'>View Counts</h4>
                   <div class='widget-content' style='color:#03C755;'>
                     <!-- Content is going to be visible when data will be fetched from server. -->
                     <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
@@ -915,7 +914,7 @@
                     </div>
                   </div>
                   <hr/>
-                  <h4 class='fw-bold'>追蹤網站</h4>
+                  <h4 class='fw-bold'>Followers</h4>
                 </b:includable>
               </b:widget>
             </b:section>
@@ -957,7 +956,7 @@
   <footer class='text-muted py-3 mt-4 border-top'>
     <div class='container'>
       <p class='text-center'>
-        版權所有&#12289;轉載必究 Copyright &#169; 2022 看我所見&#65372;
+        Copyright &#169; 2022 看我所見&#65372;
         <a href='/'>首頁</a>&#65372;
         <a href='/p/support-us.html' target='_blank'>贊助</a>&#65372;
         <a href='#PopularPosts1'>發燒文章</a>&#65372;
