@@ -10,7 +10,7 @@
 [**Google Blogger**](https://www.blogger.com) theme（template）designed with [**Bootstrap**](https://bootstrap5.hexschool.com) and Blogger's special XML syntax.
 
 - colorful social media links on right of navibar which could collapse into `navbar-toggler-icon`（hamburger）on small screen 
-- the most view count post on top of HOME page
+- most popular post on top of HOME page
 - 5 latest & 10 most popular articles on HOME page
 - there are About、Views and Followers on the sidebar which would `sticky-top`
 - links & license at bottom of all pages
