@@ -10,7 +10,7 @@ There are social media links on top-right of navigation bar which could collapse
 On the sidebar, there are About、Views and Followers. You could also show license at the bottom of all pages.  
 And this Blogger template could automatic switch between Day theme and Nithgt theme！
 
-<img src="https://github.com/5j54d93/Blogger-Template/blob/main/photo/Screenshot.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Blogger-Template/blob/v1.0.0/photo/Screenshot.png" width='100%' height='100%'/>
 
 **[Demo Website](https://sharing-life-in-tw.blogspot.com)**（a real blog）
 
@@ -33,7 +33,7 @@ _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
 2. Click on down triangle beside "Custom"
 3. Clink "Edit HTML"
 
-<img src="https://github.com/5j54d93/Blogger-Template/blob/main/photo/Blogger：Theme.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Blogger-Template/blob/v1.0.0/photo/Blogger：Theme.png" width='100%' height='100%'/>
 
 ## Blogger Template｜Edit HTML
 
@@ -43,7 +43,7 @@ _You shoul have a [Google Blogger](https://www.blogger.com) account first！_
 
 _！！！Don't just copy and paste the HTML file！！！_
 
-<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/photo/Blogger：Edit%20HTML.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/v1.0.0/photo/Blogger：Edit%20HTML.png" width='100%' height='100%'/>
 
 _After customize your blogger template, don't forget to click on top-right icon to save！_
 
