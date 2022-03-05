@@ -119,6 +119,39 @@ Customize [this XML code](https://github.com/5j54d93/Google-Blogger-Template/blo
 </div>
 ```
 
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Archive%20Tag.png" width='100%' height='100%'/>
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/404%20Tag.png" width='100%' height='100%'/>
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search%20None.png" width='50%' height='100%'/><img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search.png" width='50%' height='100%'/>
+
+<img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/BloggerTemplate/.github/assets/Search%20Date.png" width='100%' height='100%'/>
+
+- [LINE 369 ～ LINE 388](https://github.com/5j54d93/Google-Blogger-Template/blob/78b95010566af0cb434b3c655420fe79927f297d/BloggerTemplate/BloggerTemplate.xhtml#L369-L388)：different tag between different blog page type
+
+```xml
+<h4 class='alert alert-warning text-center' role='alert'>
+  <b:switch var='data:blog.pageType'>
+    <b:case value='archive'/>
+there are <data:posts.length/> posts about&#12300;<data:blog.pageName/>&#12301;
+    <b:case value='error_page'/>
+      404
+    <b:case value='index'/>
+      <b:if cond='data:blog.searchQuery'>
+        <b:if cond='data:posts.length == 0'>
+          there aren't any post about&#12300;<data:blog.searchQuery/>&#12301;😢
+        <b:else/>
+          there are <data:posts.length/> posts about&#12300;<data:blog.searchQuery/>&#12301;
+        </b:if>
+      </b:if>
+      <b:if cond='data:blog.searchLabel'>
+        there are <data:posts.length/> posts about&#12300;<data:blog.searchLabel/>&#12301;
+      </b:if>
+    <b:default/>
+  </b:switch>
+</h4>
+```
+
 ## License：MIT
 
 This package is [MIT licensed](https://github.com/5j54d93/Google-Blogger-Template/blob/main/LICENSE).
