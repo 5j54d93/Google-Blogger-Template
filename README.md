@@ -7,7 +7,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/5j54d93/Google-Blogger-Template)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Blogger-Template)
 
-[**Google Blogger**](https://www.blogger.com) theme（template）designed with [**Bootstrap**](https://bootstrap5.hexschool.com) and Blogger's special XML syntax.
+[**Google Blogger**](https://www.blogger.com) theme（template）designed with [**Bootstrap**](https://bootstrap5.hexschool.com) and Blogger's XML syntax.
 
 - colorful social media links on right of navibar which could collapse into `navbar-toggler-icon`（hamburger）on small screen 
 - most popular post on top of HOME page
