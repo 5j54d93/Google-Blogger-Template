@@ -20,6 +20,15 @@
 <img src="https://github.com/5j54d93/Google-Blogger-Template/blob/main/.github/assets/Demo.png" width='100%' height='100%'/>
 
 > Demo website：[**sharing-life-in-tw.blogspot.com**](https://sharing-life-in-tw.blogspot.com)
+ 
+> See different page type：  
+> Archive：[sharing-life-in-tw.blogspot.com/search/label/Blogger](https://sharing-life-in-tw.blogspot.com/search/label/Blogger)  
+> Error Page：[sharing-life-in-tw.blogspot.com/search?q=](https://sharing-life-in-tw.blogspot.com/search?q=)  
+> Item：[sharing-life-in-tw.blogspot.com/2022/01/SwiftUI-Text-font.html](https://sharing-life-in-tw.blogspot.com/2022/01/SwiftUI-Text-font.html)  
+> Static Page：[sharing-life-in-tw.blogspot.com/p/all-posts.html](https://sharing-life-in-tw.blogspot.com/p/all-posts.html)  
+> Homepage：[sharing-life-in-tw.blogspot.com](https://sharing-life-in-tw.blogspot.com)  
+> Search Query：[sharing-life-in-tw.blogspot.com/search?q=Blogger](https://sharing-life-in-tw.blogspot.com/search?q=Blogger)  
+> Search Label：[sharing-life-in-tw.blogspot.com/search/label/Blogger](https://sharing-life-in-tw.blogspot.com/search/label/Blogger)
 
 ## Overview
 
