@@ -21,7 +21,8 @@
 
 > Demo website：[**sharing-life-in-tw.blogspot.com**](https://sharing-life-in-tw.blogspot.com)
  
-> See different page type：  
+#### See different page type：
+
 > Archive：[sharing-life-in-tw.blogspot.com/search/label/Blogger](https://sharing-life-in-tw.blogspot.com/search/label/Blogger)  
 > Error Page：[sharing-life-in-tw.blogspot.com/search?q=](https://sharing-life-in-tw.blogspot.com/search?q=)  
 > Item：[sharing-life-in-tw.blogspot.com/2022/01/SwiftUI-Text-font.html](https://sharing-life-in-tw.blogspot.com/2022/01/SwiftUI-Text-font.html)  
